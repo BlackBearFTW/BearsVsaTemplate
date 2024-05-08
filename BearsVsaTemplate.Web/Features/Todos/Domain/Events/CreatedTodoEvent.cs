@@ -2,4 +2,4 @@
 
 namespace BearsVsaTemplate.Web.Features.Todos.Domain.Events;
 
-public record CreatedTodoEvent(Guid Id, string Content) : IEventMessage;
+public record CreatedTodoEvent(Guid Id, string Content);

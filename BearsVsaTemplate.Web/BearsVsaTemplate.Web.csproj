@@ -20,11 +20,13 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Common\Domain\" />
       <Folder Include="Common\Extensions\" />
       <Folder Include="Features\Todos\Endpoints\Delete\" />
       <Folder Include="Features\Todos\Endpoints\GetAll\" />
       <Folder Include="Features\Todos\Endpoints\GetById\" />
       <Folder Include="Features\Todos\Endpoints\Update\" />
+      <Folder Include="Infrastructure\Persistence\Configurations\" />
     </ItemGroup>
 
 </Project>
